@@ -1,0 +1,72 @@
+{
+  "kind": "collectionType",
+  "collectionName": "staffs",
+  "info": {
+    "singularName": "staff",
+    "pluralName": "staffs",
+    "displayName": "staff",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ssoid": {
+      "type": "string"
+    },
+    "keyid": {
+      "type": "string"
+    },
+    "salute": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "othername": {
+      "type": "string"
+    },
+    "dept": {
+      "type": "string"
+    },
+    "postabbr": {
+      "type": "string"
+    },
+    "post": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "name": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "chiname": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "research_interest": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "SDG": {
+      "type": "string"
+    }
+  }
+}
